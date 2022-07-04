@@ -9,7 +9,7 @@ int[] userArr = new int[8];
 int[] CreateArrayEightElement (int[] arr) {
     int maxElement = 8;
     for (int i = 0; i < maxElement; i++) {
-        Console.WriteLine("Введите элемент масива под индексом: " + i);
+        Console.WriteLine("Enter array element at index: " + i);
         int element = Convert.ToInt32(Console.ReadLine());
         arr[i] = element;
     }
@@ -18,7 +18,7 @@ int[] CreateArrayEightElement (int[] arr) {
 
 CreateArrayEightElement(userArr);
 
-Console.Write("Ваш массив: ");
+Console.Write("Your array: ");
 
 for (int i = 0; i < userArr.Length; i++) {
     if (i == 7) {
