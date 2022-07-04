@@ -19,6 +19,7 @@ int[] CreateArrayEightElement (int[] arr) {
 CreateArrayEightElement(userArr);
 
 Console.Write("Ваш массив: ");
+
 for (int i = 0; i < userArr.Length; i++) {
     if (i == 7) {
         Console.Write(userArr[i]);
